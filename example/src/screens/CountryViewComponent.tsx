@@ -54,11 +54,15 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor: 'white'
   },
   header: {
     marginTop: 30,
     marginBottom: 10,
-    fontWeight: '600',
-    fontSize: 16,
+    fontWeight: '800',
+    fontSize: 10,
+    color: 'gray',
+    borderBottomColor: 'gray',
+    borderBottomWidth: 1,
   },
 });

@@ -18,17 +18,21 @@ const CountryView: React.FC<CountryViewProp> = ({
   }
   return (
     <TouchableOpacity
+      testID={'rncpCountryView'}
       style={[styles.container, containerStyle]}
       onPress={() => (onPress ? onPress(country) : null)}
       disabled={touchDisabled || !onPress}
     >
       <Image
+        testID={'rncpCountryViewImg'}
         source={country.img}
         resizeMode="contain"
         style={[styles.flag, flagStyle]}
       />
       {flagOnly ? null : (
-        <Text style={[styles.name, textStyle]}>{country.name}</Text>
+        <Text testID={'rncpCountryViewText'} style={[styles.name, textStyle]}>
+          {country.name}
+        </Text>
       )}
     </TouchableOpacity>
   );

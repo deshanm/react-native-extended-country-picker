@@ -51,7 +51,7 @@ const CountryPicker: React.FC<CountryPickerProp> = ({
   };
 
   return (
-    <View>
+    <>
       {selectedCountry ? (
         <CountryView
           onPress={toggleOverlay}
@@ -89,7 +89,7 @@ const CountryPicker: React.FC<CountryPickerProp> = ({
           />
         </View>
       </Modal>
-    </View>
+    </>
   );
 };
 
