@@ -1,6 +1,6 @@
 {
-  "name": "react-native-country-picker",
-  "version": "0.1.0",
+  "name": "react-native-extended-country-picker",
+  "version": "0.0.0",
   "description": "Customizable country picker for react native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -13,7 +13,7 @@
     "android",
     "ios",
     "cpp",
-    "react-native-country-picker.podspec",
+    "react-native-extended-country-picker.podspec",
     "!lib/typescript/example",
     "!**/__tests__",
     "!**/__fixtures__",
@@ -27,20 +27,21 @@
     "release": "release-it",
     "example": "yarn --cwd example",
     "pods": "cd example && pod-install --quiet",
-    "bootstrap": "yarn example && yarn && yarn pods"
+    "bootstrap": "yarn example && yarn && yarn pods",
+    "semantic-release": "semantic-release"
   },
   "keywords": [
     "react-native",
     "ios",
     "android"
   ],
-  "repository": "https://github.com/deshanm/react-native-country-picker",
+  "repository": "https://github.com/deshanm/react-native-extended-country-picker",
   "author": "Deshan Madurajith <madurajithdeshan@gmail.com> (https://github.com/deshanm)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/deshanm/react-native-country-picker/issues"
+    "url": "https://github.com/deshanm/react-native-extended-country-picker/issues"
   },
-  "homepage": "https://github.com/deshanm/react-native-country-picker#readme",
+  "homepage": "https://github.com/deshanm/react-native-extended-country-picker#readme",
   "devDependencies": {
     "@commitlint/config-conventional": "^8.3.4",
     "@react-native-community/bob": "^0.16.2",
@@ -63,7 +64,8 @@
     "react-native": "0.62.2",
     "react-test-renderer": "^16.13.1",
     "release-it": "^13.5.8",
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.3",
+    "semantic-release": "^17.1.1"
   },
   "peerDependencies": {
     "react": "*",
@@ -143,6 +145,7 @@
     "trailingComma": "es5",
     "useTabs": false
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "@react-native-community/bob": {
     "source": "src",
     "output": "lib",

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 import { TextInput } from 'react-native-gesture-handler';
-import { filterCountriesByQuery } from 'react-native-country-picker';
+import { filterCountriesByQuery } from 'react-native-extended-country-picker';
 
 export default function Screen() {
   const [text, setText] = React.useState('');

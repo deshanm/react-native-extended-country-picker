@@ -1,7 +1,7 @@
 /* eslint-disable react-native/no-inline-styles */
 import * as React from 'react';
 import { StyleSheet, View, Text, Alert } from 'react-native';
-import { CountryView } from 'react-native-country-picker';
+import { CountryView } from 'react-native-extended-country-picker';
 
 export default function Screen() {
   return (

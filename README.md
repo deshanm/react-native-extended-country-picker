@@ -1,11 +1,11 @@
-# react-native-country-picker
+# react-native-extended-country-picker
 
-Country picker for react native. No dependencies. This module is developed to view the Country Flag by Country Code. This is also support for CountryPicker Modal and util functions. This is inspired by https://www.npmjs.com/package/react-native-country-picker-modal
+Country picker for react native. No dependencies. This module is developed to view the Country Flag by Country Code. This is also support for CountryPicker Modal and util functions. This is inspired by https://www.npmjs.com/package/react-native-extended-country-picker-modal
 
 ## Installation
 
 ```sh
-npm install react-native-country-picker
+npm install react-native-extended-country-picker
 ```
 
 ## Basic Usage
@@ -13,7 +13,7 @@ npm install react-native-country-picker
 ```js
 import * as React from 'react';
 import { StyleSheet, View } from 'react-native';
-import ExtendedCountryPicker from 'react-native-country-picker';
+import ExtendedCountryPicker from 'react-native-extended-country-picker';
 
 export default function App() {
   const [country, setCountry] = React.useState<any>(null);
@@ -43,7 +43,7 @@ Just view country flag and text
 /* eslint-disable react-native/no-inline-styles */
 import * as React from 'react';
 import { View } from 'react-native';
-import { CountryView } from 'react-native-country-picker';
+import { CountryView } from 'react-native-extended-country-picker';
 
 export default function App() {
   return (
@@ -85,7 +85,7 @@ List of Country that can be used in Your own modal
 
 import * as React from 'react';
 import { View } from 'react-native';
-import { CountryList } from 'react-native-country-picker';
+import { CountryList } from 'react-native-extended-country-picker';
 
 export default function App() {
   return (
@@ -118,7 +118,7 @@ This is a complete solution for the Country Picker Modal
 
 import * as React from 'react';
 import { View } from 'react-native';
-import { CountryList } from 'react-native-country-picker';
+import { CountryList } from 'react-native-extended-country-picker';
 
 export default function App() {
   return (
@@ -150,7 +150,7 @@ You can get list of countries like this
 ```
 
 import * as React from 'react';
-import { countries } from 'react-native-country-picker';
+import { countries } from 'react-native-extended-country-picker';
 
 export default function App() {
   console.log('countries',countries);
@@ -171,7 +171,7 @@ You can get country by code
 ```
 
 import * as React from 'react';
-import { getCountryByCode } from 'react-native-country-picker';
+import { getCountryByCode } from 'react-native-extended-country-picker';
 
 export default function App() {
   console.log('getCountryByCode',getCountryByCode('US'));
@@ -192,7 +192,7 @@ You can get country by code
 ```
 
 import * as React from 'react';
-import { filterCountriesByQuery } from 'react-native-country-picker';
+import { filterCountriesByQuery } from 'react-native-extended-country-picker';
 
 export default function App() {
   console.log('filterCountriesByQuery',filterCountriesByQuery('United'));
@@ -229,8 +229,8 @@ See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the 
 - [ ] Add more prop types
 
 ## Alternative Solutions
-- https://www.npmjs.com/package/react-native-country-picker-modal
-- https://www.npmjs.com/package/react-native-country-picker-modal-fix
+- https://www.npmjs.com/package/react-native-extended-country-picker-modal
+- https://www.npmjs.com/package/react-native-extended-country-picker-modal-fix
 
 ## License
 

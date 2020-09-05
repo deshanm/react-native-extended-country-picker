@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
-import ExtendedCountryPicker from 'react-native-country-picker';
+import ExtendedCountryPicker from 'react-native-extended-country-picker';
 
 export default function App() {
   const [country, setCountry] = React.useState<any>(null);

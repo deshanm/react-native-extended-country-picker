@@ -1,10 +1,10 @@
 {
-  "name": "react-native-country-picker-example",
+  "name": "react-native-extended-country-picker-example",
   "displayName": "CountryPicker Example",
   "expo": {
-    "name": "react-native-country-picker-example",
-    "slug": "react-native-country-picker-example",
-    "description": "Example app for react-native-country-picker",
+    "name": "react-native-extended-country-picker-example",
+    "slug": "react-native-extended-country-picker-example",
+    "description": "Example app for react-native-extended-country-picker",
     "privacy": "public",
     "version": "1.0.0",
     "platforms": [

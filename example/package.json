@@ -1,6 +1,6 @@
 {
-  "name": "react-native-country-picker-example",
-  "description": "Example app for react-native-country-picker",
+  "name": "react-native-extended-country-picker-example",
+  "description": "Example app for react-native-extended-country-picker",
   "version": "0.0.1",
   "private": true,
   "main": "index",
